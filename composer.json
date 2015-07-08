@@ -1,0 +1,19 @@
+{
+    "name": "Alice/Factory",
+    "description": "Factory (Part of Alice)",
+    "license": "MIT",
+    "keywords": ["alice", "microframework"],
+    "authors": [{
+        "name": "Chonlasith Jucksriporn",
+        "email": "chonla@capabilify.com"
+    }],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alice\\Factory\\": "src"
+        }
+    }
+}
